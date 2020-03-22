@@ -23,6 +23,7 @@ impl Window {
         use display_chunks::*;
         use display_shm::*;
 
+        util::clear()?;
         util::reset_cursor()?;
         match self.mode {
             Mode::Chunks => display_chunks(buffer, self.size, bits_per_pixel)?,

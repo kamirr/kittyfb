@@ -1,6 +1,6 @@
 [package]
 name = "kittyfb"
-version = "0.1.0"
+version = "0.1.1"
 authors = ["Kamil Koczurek <koczurekk@gmail.com>"]
 edition = "2018"
 description = "renders pictures to a kitty terminal"
